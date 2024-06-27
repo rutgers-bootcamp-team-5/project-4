@@ -71,3 +71,25 @@ Here is the sequential model structure:
 | Input  |      31 | N/A                 |
 | Hidden |       2 | Tanh                |
 | Output |       1 | Sigmoid             |
+
+## Supervised Machine Learning
+### Model 1 - All Features
+| Layer  | Neurons | Activation Function |
+| ------ | ------- | ------------------- |
+| Input  |      32 | N/A                 |
+| Hidden |       2 | Tanh                |
+| Output |       1 | Sigmoid             |
+
+### Model 2 - RFE Columns
+| Layer  | Neurons | Activation Function |
+| ------ | ------- | ------------------- |
+| Input  |       3 | N/A                 |
+| Hidden |       5 | Tanh                |
+| Output |       1 | Sigmoid             |
+
+### Model 3 - Non-RFE Columns
+| Layer  | Neurons | Activation Function |
+| ------ | ------- | ------------------- |
+| Input  |      29 | N/A                 |
+| Hidden |       2 | Tanh                |
+| Output |       1 | Sigmoid             |
