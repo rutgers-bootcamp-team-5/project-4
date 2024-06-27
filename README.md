@@ -77,14 +77,16 @@ Here is the sequential model structure:
 The results of the recursive feature analysis guided the development of 3 models:
 
 ### Model 1 - All Features
-This model used all 32 features from the dataset and served as a baseline.
+This model used all 32 features from the dataset and served as a baseline. <br>
+
+#### Structure
 | Layer  | Neurons | Activation Function |
 | ------ | ------- | ------------------- |
 | Input  |      32 | N/A                 |
 | Hidden |       2 | Tanh                |
 | Output |       1 | Sigmoid             |
 
-Results:
+#### Results
 | Metric            | Value  | Epochs |
 | ----------------- | ------ | ------ |
 | Minimum Loss      | 38.24% |     40 |
@@ -95,13 +97,15 @@ Results:
 
 ### Model 2 - RFE Columns
 This model used the 3 most siginificant features from RFE analysis: FunctionalAssessment, MemoryComplaints, and ADL. During the RFE analysis, the models these features were removed from performed the *worst* out of the 32 models. 
+
+#### Structure
 | Layer  | Neurons | Activation Function |
 | ------ | ------- | ------------------- |
 | Input  |       3 | N/A                 |
 | Hidden |       5 | Tanh                |
 | Output |       1 | Sigmoid             |
 
-Results: <br>
+#### Results
 Despite removing over 90% of the training data, this model performed almost as well as the baseline and even exceeded the baseline recall.
 | Metric            | Value  | Epochs |
 | ----------------- | ------ | ------ |
@@ -113,13 +117,15 @@ Despite removing over 90% of the training data, this model performed almost as w
 
 ### Model 3 - Non-RFE Columns
 This model used the 29 features not included in Model 2.
+
+#### Structure
 | Layer  | Neurons | Activation Function |
 | ------ | ------- | ------------------- |
 | Input  |      29 | N/A                 |
 | Hidden |       2 | Tanh                |
 | Output |       1 | Sigmoid             |
 
-Results: <br>
+#### Results
 There is a noticeable decrease in performance in this model, further supporting the importance of the RFE columns.
 | Metric            | Value  | Epochs |
 | ----------------- | ------ | ------ |
