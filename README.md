@@ -1,4 +1,4 @@
-# project-4
+# Machine Learning and the Mind
 
 source : https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset/data
 
