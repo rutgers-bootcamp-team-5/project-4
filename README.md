@@ -57,5 +57,10 @@ Confidential Information <br>
 DoctorInCharge: This column contains confidential information about the doctor in charge, with "XXXConfid" as the value for all patients.<br>
 
 ## Recursive Feature Elimination Analysis
-rfe_analysis.ipynb demonstrates feature analysis using recursive feature elimination. A simple neural network is trained with 32 different data sets, each having 1 of the 32 features of interest removed. <br>
-**TBD**
+rfe_analysis.ipynb demonstrates feature analysis using recursive feature elimination. A simple neural network was trained with 32 different data sets, each having 1 of the 32 features of interest removed. The metrics from each model were compared to determine which features are the most useful. <br>
+Here is the sequential model structure:
+| Layer  | Neurons | Activation Function |
+| ------ | ------- | ------------------- |
+| Input  |      31 | N/A                 |
+| Hidden |       2 | Tanh                |
+| Output |       1 | Sigmoid             |
