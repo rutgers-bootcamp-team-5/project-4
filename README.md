@@ -1,5 +1,12 @@
 # Machine Learning and the Mind
 
+## Python Library Requirements
+- pandas
+- pyspark
+- matplotlib
+- sklearn
+- tensorflow
+
 source : https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset/data
 
 ## Column Descriptions 
