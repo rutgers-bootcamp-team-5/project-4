@@ -64,7 +64,8 @@ Confidential Information <br>
 DoctorInCharge: This column contains confidential information about the doctor in charge, with "XXXConfid" as the value for all patients.<br>
 
 ## Recursive Feature Elimination Analysis
-rfe_analysis.ipynb demonstrates feature analysis using recursive feature elimination. A simple neural network was trained with 32 different data sets, each having 1 of the 32 features of interest removed. The metrics from each model were compared to determine which features are the most useful. <br>
+rfe_analysis.ipynb demonstrates feature analysis using recursive feature elimination (RFE). A simple neural network was trained with 32 different data sets, each having 1 of the 32 features of interest removed. The metrics from each model were compared to determine which features are the most useful. <br><br>
+
 Here is the sequential model structure:
 | Layer  | Neurons | Activation Function |
 | ------ | ------- | ------------------- |
@@ -73,19 +74,41 @@ Here is the sequential model structure:
 | Output |       1 | Sigmoid             |
 
 ## Supervised Machine Learning
+The results of the recursive feature analysis guided the development of 3 models:
+
 ### Model 1 - All Features
+This model used all 32 features from the dataset and served as a baseline.
 | Layer  | Neurons | Activation Function |
 | ------ | ------- | ------------------- |
 | Input  |      32 | N/A                 |
 | Hidden |       2 | Tanh                |
 | Output |       1 | Sigmoid             |
 
+Results:
+| Metric            | Value  | Epochs |
+| ----------------- | ------ | ------ |
+| Minimum Loss      | 38.24% |     40 |
+| Maximum Accuracy  | 84.20% |     30 |
+| Maximum Precision | 80.81% |     25 |
+| Maximum Recall    | 74.48% |     40 |
+
+
 ### Model 2 - RFE Columns
+This model used the 3 most siginificant features from RFE analysis: FunctionalAssessment, MemoryComplaints, and ADL. The models these features were removed from performed the *worst* out of the 32.
 | Layer  | Neurons | Activation Function |
 | ------ | ------- | ------------------- |
 | Input  |       3 | N/A                 |
 | Hidden |       5 | Tanh                |
 | Output |       1 | Sigmoid             |
+
+Results:
+| Metric            | Value  | Epochs |
+| ----------------- | ------ | ------ |
+| Minimum Loss      | 42.20% |    175 |
+| Maximum Accuracy  | 83.64% |    180 |
+| Maximum Precision | 77.27% |     65 |
+| Maximum Recall    | 76.72% |    180 |
+
 
 ### Model 3 - Non-RFE Columns
 | Layer  | Neurons | Activation Function |
@@ -93,3 +116,11 @@ Here is the sequential model structure:
 | Input  |      29 | N/A                 |
 | Hidden |       2 | Tanh                |
 | Output |       1 | Sigmoid             |
+
+Results:
+| Metric            | Value  | Epochs |
+| ----------------- | ------ | ------ |
+| Minimum Loss      | 60.35% |     40 |
+| Maximum Accuracy  | 70.26% |     60 |
+| Maximum Precision | 68.82% |     60 |
+| Maximum Recall    | 32.82% |     60 |
