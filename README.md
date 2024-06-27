@@ -94,7 +94,7 @@ Results:
 
 
 ### Model 2 - RFE Columns
-This model used the 3 most siginificant features from RFE analysis: FunctionalAssessment, MemoryComplaints, and ADL. The models these features were removed from performed the *worst* out of the 32.
+This model used the 3 most siginificant features from RFE analysis: FunctionalAssessment, MemoryComplaints, and ADL. During the RFE analysis, the models these features were removed from performed the *worst* out of the 32 models. 
 | Layer  | Neurons | Activation Function |
 | ------ | ------- | ------------------- |
 | Input  |       3 | N/A                 |
@@ -102,6 +102,7 @@ This model used the 3 most siginificant features from RFE analysis: FunctionalAs
 | Output |       1 | Sigmoid             |
 
 Results:
+Despite removing over 90% of the training data, this model performed almost as well as the baseline and even exceeded the baseline recall.
 | Metric            | Value  | Epochs |
 | ----------------- | ------ | ------ |
 | Minimum Loss      | 42.20% |    175 |
@@ -111,6 +112,7 @@ Results:
 
 
 ### Model 3 - Non-RFE Columns
+This model used the 29 features not included in Model 2.
 | Layer  | Neurons | Activation Function |
 | ------ | ------- | ------------------- |
 | Input  |      29 | N/A                 |
@@ -118,6 +120,7 @@ Results:
 | Output |       1 | Sigmoid             |
 
 Results:
+There is a noticeable decrease in performance in this model, further supporting the importance of the RFE columns.
 | Metric            | Value  | Epochs |
 | ----------------- | ------ | ------ |
 | Minimum Loss      | 60.35% |     40 |
