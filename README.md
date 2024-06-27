@@ -101,7 +101,7 @@ This model used the 3 most siginificant features from RFE analysis: FunctionalAs
 | Hidden |       5 | Tanh                |
 | Output |       1 | Sigmoid             |
 
-Results:
+Results: <br>
 Despite removing over 90% of the training data, this model performed almost as well as the baseline and even exceeded the baseline recall.
 | Metric            | Value  | Epochs |
 | ----------------- | ------ | ------ |
@@ -119,7 +119,7 @@ This model used the 29 features not included in Model 2.
 | Hidden |       2 | Tanh                |
 | Output |       1 | Sigmoid             |
 
-Results:
+Results: <br>
 There is a noticeable decrease in performance in this model, further supporting the importance of the RFE columns.
 | Metric            | Value  | Epochs |
 | ----------------- | ------ | ------ |
