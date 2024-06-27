@@ -55,3 +55,7 @@ Diagnosis Information <br>
 Diagnosis: Diagnosis status for Alzheimer's Disease, where 0 indicates No and 1 indicates Yes.<br>
 Confidential Information <br>
 DoctorInCharge: This column contains confidential information about the doctor in charge, with "XXXConfid" as the value for all patients.<br>
+
+## Recursive Feature Elimination Analysis
+rfe_analysis.ipynb demonstrates feature analysis using recursive feature elimination. A simple neural network is trained with 32 different data sets, each having 1 of the 32 features of interest removed. <br>
+**TBD**
