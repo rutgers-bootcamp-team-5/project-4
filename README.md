@@ -88,8 +88,17 @@ https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset/data
 **DoctorInCharge**: This column contains confidential information about the doctor in charge, with "XXXConfid" as the value for all patients.
 
 ## Exploratory Data Analysis
-WiP
-
+Analysis of all the data provided. Created graphs about the particements of the study. Look at the
+1) Number of Patient in the Study with Diagnosis.
+2) Participent BMI
+3) Participent Age
+4) Participent Gender
+5) Participent Ethnicity
+6) Participent History of Head Injusy
+7) Participent Family History of Alzheimers
+8) Participent Dyagnois
+9) Scatter Plot Diet Quality vs BMI
+    
 ## Recursive Feature Elimination Analysis
 rfe_analysis.ipynb demonstrates feature analysis using recursive feature elimination (RFE). A simple neural network was trained with 32 different data sets, each having 1 of the 32 features of interest removed. The metrics from each model were compared to determine which features are the most useful. <br>
 
