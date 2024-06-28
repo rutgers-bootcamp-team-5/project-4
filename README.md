@@ -1,4 +1,5 @@
 # Machine Learning and the Mind
+This study strives to create a machine learning model to predict Alzheimer's disease in patients using their health data.
 
 ## Python Library Requirements
 - pandas
@@ -8,6 +9,7 @@
 - tensorflow
 
 ## Dataset
+The dataset contains extensive health data for 2149 patients.
 
 ### Source
 https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset/data
@@ -15,7 +17,7 @@ https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset/data
 ### Column Descriptions 
 
 #### Patient Information
-Patient ID PatientID: A unique identifier assigned to each patient (4751 to 6900).
+**PatientID**: A unique identifier assigned to each patient (4751 to 6900).
 
 #### Demographic Details
 **Age**: The age of the patients ranges from 60 to 90 years.<br>
@@ -56,11 +58,11 @@ Patient ID PatientID: A unique identifier assigned to each patient (4751 to 6900
 **CholesterolTriglycerides**: Triglycerides levels, ranging from 50 to 400 mg/dL.
 
 #### Cognitive and Functional Assessments
-**MMSE**: Mini-Mental State Examination score, ranging from 0 to 30.<br> Lower scores indicate cognitive impairment.<br>
-**FunctionalAssessment**: Functional assessment score, ranging from 0 to 10.<br> Lower scores indicate greater impairment.<br>
+**MMSE**: Mini-Mental State Examination score, ranging from 0 to 30. Lower scores indicate cognitive impairment.<br>
+**FunctionalAssessment**: Functional assessment score, ranging from 0 to 10. Lower scores indicate greater impairment.<br>
 **MemoryComplaints**: Presence of memory complaints, where 0 indicates No and 1 indicates Yes.<br>
 **BehavioralProblems**: Presence of behavioral problems, where 0 indicates No and 1 indicates Yes.<br>
-**ADL**: Activities of Daily Living score, ranging from 0 to 10.<br> Lower scores indicate greater impairment.<br>
+**ADL**: Activities of Daily Living score, ranging from 0 to 10. Lower scores indicate greater impairment.
 
 #### Symptoms
 **Confusion**: Presence of confusion, where 0 indicates No and 1 indicates Yes.<br>
@@ -70,10 +72,10 @@ Patient ID PatientID: A unique identifier assigned to each patient (4751 to 6900
 **Forgetfulness**: Presence of forgetfulness, where 0 indicates No and 1 indicates Yes.
 
 #### Diagnosis Information
-**Diagnosis**: Diagnosis status for Alzheimer's Disease, where 0 indicates No and 1 indicates Yes.<br>
+**Diagnosis**: Diagnosis status for Alzheimer's Disease, where 0 indicates No and 1 indicates Yes.
 
 #### Confidential Information
-**DoctorInCharge**: This column contains confidential information about the doctor in charge, with "XXXConfid" as the value for all patients.<br>
+**DoctorInCharge**: This column contains confidential information about the doctor in charge, with "XXXConfid" as the value for all patients.
 
 ## Recursive Feature Elimination Analysis
 rfe_analysis.ipynb demonstrates feature analysis using recursive feature elimination (RFE). A simple neural network was trained with 32 different data sets, each having 1 of the 32 features of interest removed. The metrics from each model were compared to determine which features are the most useful. <br>
