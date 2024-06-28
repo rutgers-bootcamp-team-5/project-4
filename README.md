@@ -8,6 +8,12 @@ This study strives to create a machine learning model to predict Alzheimer's dis
 - sklearn
 - tensorflow
 
+## Usage
+### main.ipynb
+This notebook presents the main data analysis and modeling.
+### rfe_analysis.ipynb
+This notebook demonstrates a recursive feature elimination strategy that guided model development. Execution time can last in excess of 20 minutes.
+
 ## Dataset
 The dataset contains extensive health data for 2149 patients. The data is divided into categories and listed below.
 
