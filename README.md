@@ -18,15 +18,15 @@ Patient ID PatientID: A unique identifier assigned to each patient (4751 to 6900
 Age: The age of the patients ranges from 60 to 90 years.<br>
 Gender: Gender of the patients, where 0 represents Male and 1 represents Female.<br>
 Ethnicity: The ethnicity of the patients, coded as follows:<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;  0: Caucasian <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;  1: African American <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;  2: Asian <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;  3: Other <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  0: Caucasian <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  1: African American <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  2: Asian <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  3: Other <br>
 EducationLevel: The education level of the patients, coded as follows: <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;  0: None <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;  1: High School <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;  2: Bachelor's <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;  3: Higher 
+&nbsp;&nbsp;&nbsp;&nbsp;  0: None <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  1: High School <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  2: Bachelor's <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  3: Higher 
   
 ### Lifestyle Factors
 BMI: Body Mass Index of the patients, ranging from 15 to 40.<br>
@@ -37,12 +37,12 @@ DietQuality: Diet quality score, ranging from 0 to 10.<br>
 SleepQuality: Sleep quality score, ranging from 4 to 10.
 
 ### Medical History
-FamilyHistoryAlzheimers: &emsp; Family history of Alzheimer's Disease, where 0 indicates No and 1 indicates Yes.<br>
-CardiovascularDisease: &emsp;&emsp; Presence of cardiovascular disease, where 0 indicates No and 1 indicates Yes.<br>
-Diabetes: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Presence of diabetes, where 0 indicates No and 1 indicates Yes.<br>
-Depression: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Presence of depression, where 0 indicates No and 1 indicates Yes.<br>
-HeadInjury: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; History of head injury, where 0 indicates No and 1 indicates Yes.<br>
-Hypertension: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Presence of hypertension, where 0 indicates No and 1 indicates Yes.
+FamilyHistoryAlzheimers: Family history of Alzheimer's Disease, where 0 indicates No and 1 indicates Yes.<br>
+CardiovascularDisease: Presence of cardiovascular disease, where 0 indicates No and 1 indicates Yes.<br>
+Diabetes: Presence of diabetes, where 0 indicates No and 1 indicates Yes.<br>
+Depression: Presence of depression, where 0 indicates No and 1 indicates Yes.<br>
+HeadInjury: History of head injury, where 0 indicates No and 1 indicates Yes.<br>
+Hypertension: Presence of hypertension, where 0 indicates No and 1 indicates Yes.
 
 ### Clinical Measurements
 SystolicBP: Systolic blood pressure, ranging from 90 to 180 mmHg.<br>
