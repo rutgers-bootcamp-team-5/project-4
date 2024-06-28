@@ -9,7 +9,7 @@ This study strives to create a machine learning model to predict Alzheimer's dis
 - tensorflow
 
 ## Dataset
-The dataset contains extensive health data for 2149 patients.
+The dataset contains extensive health data for 2149 patients. The data is divided into categories and listed below.
 
 ### Source
 https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset/data
