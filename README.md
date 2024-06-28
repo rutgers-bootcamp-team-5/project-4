@@ -9,6 +9,8 @@ This study strives to create a machine learning model to predict Alzheimer's dis
 - tensorflow
 
 ## Usage
+### dev
+A directory containing code snippets used during development.
 ### main.ipynb
 This notebook presents the main data analysis and modeling.
 ### rfe_analysis.ipynb
