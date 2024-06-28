@@ -18,61 +18,62 @@ https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset/data
 Patient ID PatientID: A unique identifier assigned to each patient (4751 to 6900).
 
 #### Demographic Details
-Age: The age of the patients ranges from 60 to 90 years.<br>
-Gender: Gender of the patients, where 0 represents Male and 1 represents Female.<br>
-Ethnicity: The ethnicity of the patients, coded as follows:<br>
+**Age**: The age of the patients ranges from 60 to 90 years.<br>
+**Gender**: Gender of the patients, where 0 represents Male and 1 represents Female.<br>
+**Ethnicity**: The ethnicity of the patients, coded as follows:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;  0: Caucasian <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  1: African American <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  2: Asian <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  3: Other <br>
-EducationLevel: The education level of the patients, coded as follows: <br>
+**EducationLevel**: The education level of the patients, coded as follows: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  0: None <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  1: High School <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  2: Bachelor's <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  3: Higher 
   
 #### Lifestyle Factors
-BMI: Body Mass Index of the patients, ranging from 15 to 40.<br>
-Smoking: Smoking status, where 0 indicates No and 1 indicates Yes.<br>
-AlcoholConsumption: Weekly alcohol consumption in units, ranging from 0 to 20.<br>
-PhysicalActivity: Weekly physical activity in hours, ranging from 0 to 10.<br>
-DietQuality: Diet quality score, ranging from 0 to 10.<br>
-SleepQuality: Sleep quality score, ranging from 4 to 10.
+**BMI**: Body Mass Index of the patients, ranging from 15 to 40.<br>
+**Smoking**: Smoking status, where 0 indicates No and 1 indicates Yes.<br>
+**AlcoholConsumption**: Weekly alcohol consumption in units, ranging from 0 to 20.<br>
+**PhysicalActivity**: Weekly physical activity in hours, ranging from 0 to 10.<br>
+**DietQuality**: Diet quality score, ranging from 0 to 10.<br>
+**SleepQuality**: Sleep quality score, ranging from 4 to 10.
 
 #### Medical History
-FamilyHistoryAlzheimers: Family history of Alzheimer's Disease, where 0 indicates No and 1 indicates Yes.<br>
-CardiovascularDisease: Presence of cardiovascular disease, where 0 indicates No and 1 indicates Yes.<br>
-Diabetes: Presence of diabetes, where 0 indicates No and 1 indicates Yes.<br>
-Depression: Presence of depression, where 0 indicates No and 1 indicates Yes.<br>
-HeadInjury: History of head injury, where 0 indicates No and 1 indicates Yes.<br>
-Hypertension: Presence of hypertension, where 0 indicates No and 1 indicates Yes.
+**FamilyHistoryAlzheimers**: Family history of Alzheimer's Disease, where 0 indicates No and 1 indicates Yes.<br>
+**CardiovascularDisease**: Presence of cardiovascular disease, where 0 indicates No and 1 indicates Yes.<br>
+**Diabetes**: Presence of diabetes, where 0 indicates No and 1 indicates Yes.<br>
+**Depression**: Presence of depression, where 0 indicates No and 1 indicates Yes.<br>
+**HeadInjury**: History of head injury, where 0 indicates No and 1 indicates Yes.<br>
+**Hypertension**: Presence of hypertension, where 0 indicates No and 1 indicates Yes.
 
 #### Clinical Measurements
-SystolicBP: Systolic blood pressure, ranging from 90 to 180 mmHg.<br>
-DiastolicBP: Diastolic blood pressure, ranging from 60 to 120 mmHg.<br>
-CholesterolTotal: Total cholesterol levels, ranging from 150 to 300 mg/dL.<br>
-CholesterolLDL: Low-density lipoprotein cholesterol levels, ranging from 50 to 200 mg/dL.<br>
-CholesterolHDL: High-density lipoprotein cholesterol levels, ranging from 20 to 100 mg/dL.<br>
-CholesterolTriglycerides: Triglycerides levels, ranging from 50 to 400 mg/dL.
+**SystolicBP**: Systolic blood pressure, ranging from 90 to 180 mmHg.<br>
+**DiastolicBP**: Diastolic blood pressure, ranging from 60 to 120 mmHg.<br>
+**CholesterolTotal**: Total cholesterol levels, ranging from 150 to 300 mg/dL.<br>
+**CholesterolLDL**: Low-density lipoprotein cholesterol levels, ranging from 50 to 200 mg/dL.<br>
+**CholesterolHDL**: High-density lipoprotein cholesterol levels, ranging from 20 to 100 mg/dL.<br>
+**CholesterolTriglycerides**: Triglycerides levels, ranging from 50 to 400 mg/dL.
 
 #### Cognitive and Functional Assessments
-MMSE: Mini-Mental State Examination score, ranging from 0 to 30.<br> Lower scores indicate cognitive impairment.<br>
-FunctionalAssessment: Functional assessment score, ranging from 0 to 10.<br> Lower scores indicate greater impairment.<br>
-MemoryComplaints: Presence of memory complaints, where 0 indicates No and 1 indicates Yes.<br>
-BehavioralProblems: Presence of behavioral problems, where 0 indicates No and 1 indicates Yes.<br>
-ADL: Activities of Daily Living score, ranging from 0 to 10.<br> Lower scores indicate greater impairment.<br>
+**MMSE**: Mini-Mental State Examination score, ranging from 0 to 30.<br> Lower scores indicate cognitive impairment.<br>
+**FunctionalAssessment**: Functional assessment score, ranging from 0 to 10.<br> Lower scores indicate greater impairment.<br>
+**MemoryComplaints**: Presence of memory complaints, where 0 indicates No and 1 indicates Yes.<br>
+**BehavioralProblems**: Presence of behavioral problems, where 0 indicates No and 1 indicates Yes.<br>
+**ADL**: Activities of Daily Living score, ranging from 0 to 10.<br> Lower scores indicate greater impairment.<br>
 
 #### Symptoms
-Confusion: Presence of confusion, where 0 indicates No and 1 indicates Yes.<br>
-Disorientation: Presence of disorientation, where 0 indicates No and 1 indicates Yes.<br>
-PersonalityChanges: Presence of personality changes, where 0 indicates No and 1 indicates Yes.<br>
-DifficultyCompletingTasks: Presence of difficulty completing tasks, where 0 indicates No and 1 indicates Yes.<br>
-Forgetfulness: Presence of forgetfulness, where 0 indicates No and 1 indicates Yes.
+**Confusion**: Presence of confusion, where 0 indicates No and 1 indicates Yes.<br>
+**Disorientation**: Presence of disorientation, where 0 indicates No and 1 indicates Yes.<br>
+**PersonalityChanges**: Presence of personality changes, where 0 indicates No and 1 indicates Yes.<br>
+**DifficultyCompletingTasks**: Presence of difficulty completing tasks, where 0 indicates No and 1 indicates Yes.<br>
+**Forgetfulness**: Presence of forgetfulness, where 0 indicates No and 1 indicates Yes.
 
 #### Diagnosis Information
-Diagnosis: Diagnosis status for Alzheimer's Disease, where 0 indicates No and 1 indicates Yes.<br>
-Confidential Information <br>
-DoctorInCharge: This column contains confidential information about the doctor in charge, with "XXXConfid" as the value for all patients.<br>
+**Diagnosis**: Diagnosis status for Alzheimer's Disease, where 0 indicates No and 1 indicates Yes.<br>
+
+#### Confidential Information
+**DoctorInCharge**: This column contains confidential information about the doctor in charge, with "XXXConfid" as the value for all patients.<br>
 
 ## Recursive Feature Elimination Analysis
 rfe_analysis.ipynb demonstrates feature analysis using recursive feature elimination (RFE). A simple neural network was trained with 32 different data sets, each having 1 of the 32 features of interest removed. The metrics from each model were compared to determine which features are the most useful. <br>
