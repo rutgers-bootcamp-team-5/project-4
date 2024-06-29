@@ -9,14 +9,10 @@ This study strives to create a machine learning model to predict Alzheimer's dis
 - tensorflow
 
 ## Usage
-### data
-This directory contains the data used for analysis and modeling.
-### dev
-This directory contains code snippets used during development.
-### main.ipynb
-This notebook presents the main data analysis and modeling.
-### rfe_analysis.ipynb
-This notebook demonstrates a recursive feature elimination strategy that guided model development. Execution time can last in excess of 20 minutes.
+**data** - This directory contains the data used for analysis and modeling. <br>
+**dev** - This directory contains code snippets used during development. <br>
+**main.ipynb** - This notebook presents the main data analysis and modeling. <br>
+**rfe_analysis.ipynb** - This notebook demonstrates a recursive feature elimination strategy that guided model development. Execution time can last in excess of 20 minutes.
 
 ## Dataset
 The dataset contains extensive health data for 2149 patients. The data is divided into categories and listed below.
