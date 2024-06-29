@@ -95,17 +95,8 @@ Analysis of all the data provided. Created graphs about the particements of the 
 8) Participent Dyagnois
 9) Scatter Plot Diet Quality vs BMI
 
-## Unsupervised Machine learning
-
-Unsupervised learning models are often created using a clustering algorithm.
-
-Clustering algorithm uses grouping of data together so that every member of that group is similar in some way.
-
-Since the K-means algorithm is the simplest and most common algorithm used to group data points into clusters, here very first model that we have used for model exploration is unsupervised model with k-means to form clusters.
-
-There are more than 30 columns in data set , so we have used PCA method to reduce number of dimension with loss of about 2% data.
-
-Please refere main notebook for elbow curve (Number of cluster determination: In this case 4) and Scatter plot for clusters.
+## Unsupervised Machine Learning
+Model exploration began with clustering using k-means. There are more than 30 columns in dataset, so PCA was implemented to reduce number of dimension with loss of about 2% data. Please refer to the main notebook for the elbow curve and scatter plot for clusters.
 
 ## Supervised Machine learning
 
@@ -130,7 +121,7 @@ Here is the sequential model structure:
 The results of the recursive feature analysis guided the development of 3 models:
 
 ### Model 1 - All Features
-This model used all 32 features from the dataset and served as a baseline. <br>
+This model used all 32 features from the dataset and served as a baseline. 
 
 #### Structure
 | Layer  | Neurons | Activation Function |
