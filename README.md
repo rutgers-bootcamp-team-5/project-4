@@ -94,6 +94,27 @@ Analysis of all the data provided. Created graphs about the particements of the 
 7) Participent Family History of Alzheimers
 8) Participent Dyagnois
 9) Scatter Plot Diet Quality vs BMI
+
+## Unsupervised Machine learning
+
+Unsupervised learning models are often created using a clustering algorithm.
+
+Clustering algorithm uses grouping of data together so that every member of that group is similar in some way.
+
+Since the K-means algorithm is the simplest and most common algorithm used to group data points into clusters, here very first model that we have used for model exploration is unsupervised model with k-means to form clusters.
+
+There are more than 30 columns in data set , so we have used PCA method to reduce number of dimension with loss of about 2% data.
+
+Please refere main notebook for elbow curve (Number of cluster determination: In this case 4) and Scatter plot for clusters.
+
+## Supervised Machine learning
+
+Next approach was supervised learning with KNN (K- nearest neighbour algorithm) model.
+
+Confusion matrix was derived to determine false positive and false negatives. 
+
+Since the model accuracy we got with this model was about 71% we then decided to move forward with deep machine learning with neural networks model.
+
     
 ## Recursive Feature Elimination Analysis
 rfe_analysis.ipynb demonstrates feature analysis using recursive feature elimination (RFE). A simple neural network was trained with 32 different data sets, each having 1 of the 32 features of interest removed. The metrics from each model were compared to determine which features are the most useful. <br>
