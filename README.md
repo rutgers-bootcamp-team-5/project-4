@@ -98,14 +98,8 @@ Analysis of all the data provided. Created graphs about the particements of the 
 ## Unsupervised Machine Learning
 Model exploration began with clustering using k-means. There are more than 30 columns in dataset, so PCA was implemented to reduce number of dimension with loss of about 2% data. Please refer to the main notebook for the elbow curve and scatter plot for clusters.
 
-## Supervised Machine learning
-
-Next approach was supervised learning with KNN (K- nearest neighbour algorithm) model.
-
-Confusion matrix was derived to determine false positive and false negatives. 
-
-Since the model accuracy we got with this model was about 71% we then decided to move forward with deep machine learning with neural networks model.
-
+## Supervised Machine learning - KNN
+The first iteration of supervised learning used the KNN (K-nearest neighbour) algorithm. A confusion matrix was derived to determine false positive and false negatives. The model accuracy reached only 71%, so other machine learning methods were pursued.
     
 ## Recursive Feature Elimination Analysis
 rfe_analysis.ipynb demonstrates feature analysis using recursive feature elimination (RFE). A simple neural network was trained with 32 different data sets, each having 1 of the 32 features of interest removed. The metrics from each model were compared to determine which features are the most useful. <br>
@@ -117,7 +111,7 @@ Here is the sequential model structure:
 | Hidden |       2 | Tanh                |
 | Output |       1 | Sigmoid             |
 
-## Supervised Machine Learning
+## Supervised Machine Learning - Neural Networks
 The results of the recursive feature analysis guided the development of 3 models:
 
 ### Model 1 - All Features
