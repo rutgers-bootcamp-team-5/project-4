@@ -127,10 +127,10 @@ This model used all 32 features from the dataset and served as a baseline.
 #### Results
 | Metric            | Value  | Epochs |
 | ----------------- | ------ | ------ |
-| Minimum Loss      | 38.24% |     40 |
-| Maximum Accuracy  | 84.20% |     30 |
-| Maximum Precision | 80.81% |     25 |
-| Maximum Recall    | 74.48% |     40 |
+| Minimum Loss      | 34.23% |    190 |
+| Maximum Accuracy  | 86.43% |    155 |
+| Maximum Precision | 84.05% |    155 |
+| Maximum Recall    | 74.46% |    155 |
 
 
 ### Model 2 - RFE Columns
@@ -147,10 +147,10 @@ This model used the 3 most siginificant features from RFE analysis: FunctionalAs
 Despite removing over 90% of the training data, this model performed almost as well as the baseline and even exceeded the baseline recall.
 | Metric            | Value  | Epochs |
 | ----------------- | ------ | ------ |
-| Minimum Loss      | 42.20% |    175 |
-| Maximum Accuracy  | 83.64% |    180 |
-| Maximum Precision | 77.27% |     65 |
-| Maximum Recall    | 76.72% |    180 |
+| Minimum Loss      | 39.46% |    300 |
+| Maximum Accuracy  | 85.13% |    220 |
+| Maximum Precision | 77.71% |     10 |
+| Maximum Recall    | 77.71% |    265 |
 
 
 ### Model 3 - Non-RFE Columns
@@ -167,7 +167,7 @@ This model used the 29 features not included in Model 2.
 There is a noticeable decrease in performance in this model, further supporting the importance of the RFE columns.
 | Metric            | Value  | Epochs |
 | ----------------- | ------ | ------ |
-| Minimum Loss      | 60.35% |     40 |
-| Maximum Accuracy  | 70.26% |     60 |
-| Maximum Precision | 68.82% |     60 |
-| Maximum Recall    | 32.82% |     60 |
+| Minimum Loss      | 63.50% |     20 |
+| Maximum Accuracy  | 64.50% |     55 |
+| Maximum Precision | 57.69% |     55 |
+| Maximum Recall    | 35.75% |      5 |
