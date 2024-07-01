@@ -144,7 +144,7 @@ This model used the 3 most siginificant features from RFE analysis: FunctionalAs
 | Output |       1 | Sigmoid             |
 
 #### Results
-Despite removing over 90% of the training data, this model performed almost as well as the baseline and even exceeded the baseline recall.
+Despite removing over 90% of the training data, this model surpassed the baseline in all metrics.
 | Metric            | Value  | Epochs |
 | ----------------- | ------ | ------ |
 | Minimum Loss      | 40.94% |    155 |
